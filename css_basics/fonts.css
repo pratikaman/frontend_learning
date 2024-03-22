@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Honk&family=Oxygen:wght@300;400;700&display=swap");
+
+html {
+
+}
+
+.funky {
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "MORF" 15, "SHLN" 50;
+}
+
+.sub-heading {
+    display: flex;
+    font-size: 2vw;
+    justify-content: center;
+    background-color: aqua;
+}
+
+#lineheight{
+    line-height: 2;
+}
+
+#textalign-center{
+    text-align: center;
+}
+
+#textalign-right{
+    text-align: right;
+}
+
+#textalign-left{
+    text-align: left;
+}
+
+#textalign-justify{
+    text-align: justify;
+}
+
+#font-900{
+    font-weight: 900;
+}
+
+#font-100{
+    font-weight: 100;
+}

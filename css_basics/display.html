@@ -1,0 +1,39 @@
+<!-- 
+block- will not allow any other element to sit next to it.
+inline- will allow other elements to sit next to it if there is space. Will not allow to set width and height.
+inline-block- will allow other elements to sit next to it if there is space and also allow to set width and height.
+flex- 
+
+Some elements are by default either Block or inline.
+Ex- <p> is block, <a> is inline.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="display.css">
+</head>
+<body>
+    <h2>Block-block</h2>
+    <p class="first-block">pratik</p>
+    <p class="second-block">aman</p>
+    <hr>
+    <h2>Block-inline</h2>
+    <p class="first-block">pratik</p>
+    <p class="second-inline">aman</p>
+    <hr>
+    <h2>Inline-inline</h2>
+    <p class="first-inline">pratik</p>
+    <p class="second-inline">aman</p>
+    <hr>
+    <h2>Flex</h2>
+    <div id="flexbox">
+        <div id="first-flex"></div>
+        <div id="second-flex"></div>
+        <div id="third-flex"></div>
+    </div>
+</body>
+</html>

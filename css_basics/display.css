@@ -1,0 +1,46 @@
+.first-block{
+    background-color: red;
+    width: fit-content;
+}
+
+.second-block{
+    background-color: green;
+    width: fit-content;
+}
+
+.second-inline {
+    display: inline;
+    background-color: green;
+}
+
+.first-inline {
+    display: inline;
+    background-color: red;
+}
+
+#flexbox {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#first-flex{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+#second-flex{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+#third-flex{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}

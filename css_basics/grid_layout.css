@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    display: grid ;
+
+
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    align-items: center;
+    justify-items: center;
+
+    /* --------- try this----- */
+    /* grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    align-content: center;
+    justify-content: center; */
+
+}
+
+.elem{
+    background-color: lightcoral;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}

@@ -1,0 +1,14 @@
+#wall {
+  height: 150px;
+  width: 150px;
+  background: url(https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#gradient {
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(to right bottom, red, orange, yellow, green, blue, indigo, violet);
+}

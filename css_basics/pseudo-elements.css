@@ -1,0 +1,25 @@
+
+#para {
+    color: red;
+    position: relative;
+    width: fit-content;
+}
+
+#para::before {
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    top: 100%;
+}
+
+#para::first-letter{
+    color: blue;
+    font-size: 2em;
+}
+
+#para::selection {
+    color: green;
+    background-color: grey;
+}
