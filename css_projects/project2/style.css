@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: end;
+    padding: 150px 90px 0px 90px;
+}
+
+#left{
+    height: 100%;
+    width: 48%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+#left h1 {
+    font-size: 100px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+#bottom-left {
+    height: 40%;
+    width: 100%;
+    /* background-color: green; */
+}
+
+#color {
+    width: 100px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    justify-content: space-between;
+}
+
+#color h5{
+    font-weight: 300;
+    line-height: 1;
+    font-size: 12px;
+}
+
+#colors{
+    display: flex;
+    gap: 4px;
+}
+
+
+
+#color1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: brown;
+}
+
+#color2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#details{
+    margin-top: 40px;
+}
+
+#details h4{
+    margin-bottom: 8px;
+}
+
+#details p {
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+#right{
+    height: 90%;
+    width: 35%;
+    /* background-color: blue; */
+    position: relative;
+}
+
+#top-right{
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px 8px 0;
+}
+
+#top-right h5 {
+    font-size: 10px;
+}
+
+#right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+#cart-btn {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background-color: rgb(45, 44, 44);
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 86%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#item-name{
+    /* transform: rotate(-90deg); */
+    rotate: -90deg;
+    position: absolute;
+    bottom: 10%;
+    left: -22%;
+    /* background-color: beige; */
+    font-weight: 500;
+    font-size: 20px;
+}
