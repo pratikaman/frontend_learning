@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  "Roboto Flex", sans-serif;
+    user-select: none;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+  height: 100%;
+  width: 100%;  
+}
+
+#nav {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    padding: 0px 30px;
+}
+
+#nav-part1 {
+    display: flex;;
+}
+
+.dot{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#nav-part2{
+    display: flex;
+    gap: 30px;
+}
+
+#nav-part2 h4 {
+    font-weight: 300;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+#nav-part2 span {
+    color: rgb(123, 123, 123);
+}
+
+#nav2{
+    display: flex;
+    height: 60px;
+    /* background-color: cadetblue; */
+    align-items: center;
+    padding: 0px 30px;
+    /* background-color: rgb(240, 240, 240); */
+    color: black;
+    gap: 90px;
+}
+
+#nav2 h3 {
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#content {
+    width: 100%;
+    height: calc(100% - 110px);
+    /* background-color: blue; */
+}
+
+#text-content{
+    width: 100%;
+    height: 45%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+
+#text-content::-webkit-scrollbar {
+    background-color: transparent;
+    height: 5px;
+}
+
+#text-content::-webkit-scrollbar-thumb {
+    background-color: orange;
+}
+
+.elem {
+    height: 100%;
+    width: 50%;
+    flex-shrink: 0;
+    /* background-color: red;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.elem h1 {
+    font-size: 120px;
+    font-weight: 300;
+}
+
+#image-content {
+    height:55%;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    /* background-color: aquamarine; */
+}
+
+#image-content::-webkit-scrollbar {
+    display: none;
+}
+
+#image-content img {
+    height: 100%;
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+    object-position: center;
+}
