@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+@font-face {
+    font-family: 'monument-regular';
+    src: url('Monument/MonumentExtended-Regular.otf');
+}
+
+@font-face {
+    font-family: 'monument-bold';
+    src: url('Monument/MonumentExtended-Ultrabold.otf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box; /* makes the padding and border included in the element's total width and height, not in addition to it.*/
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #f8f8f8;
+    position: relative;
+    padding-top: 1px; /* css bug: to avoid the nav bar to stick to the top */
+}
+
+#nav{
+    height: 10vh;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav h2 {
+    /* background-color: red; */
+    font-size: 16px;
+    font-weight: 500;
+    height: 100%;
+    width: 20%;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#nav h1 {
+    /* background-color: blueviolet; */
+    font-family: 'monument-regular';
+    height: 100%;
+    width: 18%;
+    display: flex;
+    font-size: 28px;
+    letter-spacing: -1px;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav h2:nth-last-child(2){
+    width: 30%;
+}
+
+#nav h2:nth-last-child(1){
+    border-right: none;
+    width: 10%;
+    /* background-color: blueviolet; */
+}
+
+#center {
+    height: 90vh;
+    width: 100%;
+    /* background-color: red; */
+    padding: 4vw;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#content {
+    height: 100%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    position: relative;
+}
+
+#content video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
