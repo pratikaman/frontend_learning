@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+    font-size: 6rem;
+    color: red;
+}
+
+h1::after {
+    content: " how you all doing";
+    color: green;
+}
+
+h1::before {
+    content: "Hey there, ";
+    color: blue;
+}
+
+
+#box{
+    height: 200px;
+    width: fit-content;
+    background-color: cadetblue;
+}
+
+#box::after {
+    content: " this is the 'after' pseudo element";
+    color: white;
+}
+
+#box::before {
+    content: "this is the 'before' pseudo element ";
+    color: white;
+}
