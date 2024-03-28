@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              jakarta: ['"Plus Jakarta Sans"'],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div class="main w-full h-screen bg-white font-jakarta">
+      <div class="container relative mx-auto h-screen">
+        <div class="navbar flex items-center justify-between w-full py-6 px-4">
+          <h3 class="font-semibold">@PratikAmanium</h3>
+          <div class="links hidden lg:flex gap-10">
+            <a class="text-xm cursor-pointer" href="#">Works</a>
+            <a class="text-xm opacity-50 cursor-pointer" href="#">Service</a>
+            <a class="text-xm opacity-50 cursor-pointer" href="#">Count</a>
+            <a class="text-xm opacity-50 cursor-pointer" href="#">Pricing</a>
+          </div>
+          <i class="ri-menu-line lg:hidden cursor-pointer"></i>
+        </div>
+        <div class="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] w-full flex flex-col items-center">
+            <div class="image w-24 h-24 bg-purple-200 rounded-full flex items-center justify-center">
+                <img class='w-14' src="memoji.png" alt="">
+            </div>
+            <h3 class="font-semibold text-xl mt-4 tracking-tight">Hi, I'm Pratik 🤟🏻</h3>
+            <h1 class="w-2/3 text-center font-semibold text-4xl leading-none mt-4 tracking-tight">Building digital products, brands, and experience</h1>
+            <p class="text-center w-2/3 mt-6 text-sm font-semibold tracking-tight">Versatile full-stack developer proficient in frontend, backend, and database technologies.</p>
+            <button class="px-4 py-2 text-white bg-black rounded-full text-sm  font-semibold tracking-tight mt-6">connect with me</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
