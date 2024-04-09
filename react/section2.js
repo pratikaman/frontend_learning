@@ -1,10 +1,15 @@
+// Use reacting project for reference.
+
 // components, state, props
 
 // things in react are components
 // App component is a main one.
 // components are reusable and can be nested.
 
-// every component file name should start with a capital letter. and the component name should be the same as the file name.
+// use 'rfce' shortcut in compenent files to create a functional component.
+
+// every component file name should start with a capital letter. 
+// and the component name should be the same as the file name.
 
 // every component should return a single JSX element.
 // example- 

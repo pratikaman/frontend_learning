@@ -1,7 +1,7 @@
-// 
+// use reacting project for reference.
 
 
-// Use curly braces to write javascript code in react like in line 14
+// Use curly braces to write javascript code in Jsx like in line 14
 
 // export default function App() {
 
