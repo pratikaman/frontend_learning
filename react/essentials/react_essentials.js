@@ -33,11 +33,12 @@ var [first, ,last] = arr4;
 
 // ----------------------------------------------------------------------------------------------------------------------
 
-var arrwFnc = (a,b) => {console.log(a)};
-var arrwFnc2 = (a,b) => console.log(a);
-var arrwFnc3 = () => ({name:'andrea', age: 23});
+var arrwFnc0 = (a,b) => {console.log(a)}; // it is not returning anything
+var arrwFnc1 = (a,b) => {console.log(a); return 2}; // it is returning
+var arrwFnc2 = (a,b) => a; // it is returning
+var arrwFnc3 = () => ({name:'andrea', age: 23}); // it is returning an object
 var arrFncWithOneArg = a => console.log(`hi ${a}`);
-var arrFncWithOneArg2 = a => {console.log('hi')};
+var arrFncWithOneArg2 = a => {console.log('hi')}; //it is not returning anything
 
 // ----------------------------------------------------------------------------------------------------------------------
 
