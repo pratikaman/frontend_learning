@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import './components/Card.jsx'
 
 
 function App() {
@@ -51,7 +52,6 @@ function App() {
 
 
     
-
 
     </>
   )
