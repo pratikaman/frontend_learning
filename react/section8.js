@@ -21,7 +21,8 @@
 //     cta: PropTypes.string.isRequired,
 //     color: PropTypes.string.isRequired,
 //   }
-
+// 
+// 
 // function App() {
 //  
 // 
@@ -32,3 +33,6 @@
 //       </div>
 //     )
 //   }
+
+
+// use reacting7 and reacting8 also project for reference on props.
