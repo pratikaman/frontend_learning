@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 function Nav() {
   return (
-    <nav className="px-8 py-2 bg-slate-700 flex justify-end gap-4">
+    <nav className="p-2 h-[60px] bg-slate-700 flex justify-end gap-4">
       {/* <Link to="/" className="p-2 bg-purple-800 rounded-xl">Home</Link>
         <Link to="/user" className="p-2 bg-purple-800 rounded-xl">User</Link>
         <Link to="/about" className="p-2 bg-purple-800 rounded-xl">About</Link> */}
