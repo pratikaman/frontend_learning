@@ -1,3 +1,5 @@
+// Scroll Trigger
+
 
 gsap.from("#circle1",{
     duration:2,
