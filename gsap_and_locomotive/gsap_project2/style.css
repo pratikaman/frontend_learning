@@ -1,0 +1,49 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap'); */
+
+
+@font-face {
+    font-family: 'woodland-regular';
+    src: url('./PPWoodland-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "woodland-regular";
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#page1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #e3e3c4;
+}
+
+#page2 {
+    width: 100%;
+    height: 100vh;
+    background-color: #556043;
+    padding: 2vw;
+}
+
+#page2 h1 {
+    color: #434b34;
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 500;
+    line-height: 4.8vw;
+}
+
+#page3 {
+    width: 100%;
+    height: 100vh;
+    background-color: #e3e3c4;
+}
