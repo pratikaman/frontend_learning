@@ -14,6 +14,8 @@ function Card1() {
             alert("Please enter your name");
             return;
         }
+        alert(`${name.current.value} is ${age.current.value} years old!`);
+        return
 
     }
 

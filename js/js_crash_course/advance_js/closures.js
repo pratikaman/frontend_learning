@@ -3,10 +3,14 @@
 
 function counter(){
     var count = 0;
+
+
     return function(){
         count++;
         console.log(count);
     }
+
+
 }
 
 
@@ -19,10 +23,13 @@ count();
 
 
 function timer(){
+
     var a = 23;
+
     return setTimeout(function(){
         console.log(a);
-    }, 10000)
+    }, 1000)
+
 }
 
 

@@ -32,7 +32,14 @@ function Card() {
 
   return (
     <div className='w-full h-screen bg-violet-900 flex items-center justify-center gap-10' >
-      {data.map((e,index)=>(
+
+
+      {
+
+        data.map(
+          
+        (e,index)=>(
+          
         <div  key={index} className='w-52 bg-zinc-100 rounded-md overflow-hidden'>
         <div className='w-full h-32 bg-zinc-300'>
           <img className='w-full h-full object-cover object-center ' src={e.image}></img>
@@ -45,7 +52,12 @@ function Card() {
           </button>
         </div>
       </div>
-      ))}
+
+      )
+      
+      )
+      
+      }
 
       
     </div>

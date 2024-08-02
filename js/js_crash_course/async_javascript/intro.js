@@ -24,6 +24,7 @@ var count = 0
 var hii = setInterval(function(){
     if (count == 10){
         clearInterval(hii)
+        return
     }
     count++;
     console.log('Hii Pratik')

@@ -17,6 +17,11 @@ function App() {
     }
   );
 
+  const [val4, setVal4] = useState({
+    name: 'pratik',
+    color: 'brown',
+  })
+
 
   return (
    <div className='bg-zinc-200 p-4 h-screen flex flex-col gap-4 items-center justify-center'>
@@ -37,6 +42,12 @@ function App() {
     <div>gender: {val3.gender ? "male" : "female"}</div>
     <button onClick={()=>setVal3({...val3, gender:'male'})} className={`w-fit  px-2 py-1 ${val3.gender? 'bg-blue-600' : 'bg-red-600'} text-zinc-200 rounded`}>Add gender</button>
 
+
+    <div>
+      name: {val4.name}<br></br>
+      color: {val4.color}
+    </div>
+    <button onClick={()=> setVal4({...val4, color: 'white'})} className={`w-fit  px-2 py-1 ${val3.gender? 'bg-blue-600' : 'bg-red-600'} text-zinc-200 rounded`}>change color</button>
 
    </div>
   )

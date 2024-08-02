@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function Card2() {
 
     // Method 2 to control forms (in genral any element)
-    const [val, setVal] = useState({userName: ""});
+    const [val, setVal] = useState({userName: "", age: ""});
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -11,6 +11,8 @@ function Card2() {
             alert("Please enter your name");
             return;
         }
+        alert(`${val.userName} is ${val.age} years old!`);
+        return
     }
 
 
@@ -28,6 +30,9 @@ function Card2() {
           placeholder="ur name"
         />
         <input
+          onChange={(e)=>{
+            return setVal((prev)=>({...prev, age: e.target.value}))
+          }}
           type="text"
           name="age"
           className="border-2 rounded p-2"

@@ -78,8 +78,8 @@ var body = document.querySelector('body');
 var h1 = document.createElement('h1')
 h1.textContent = 'I am a new h1';
 h1.classList.add('newClass');
-// body.appendChild(h1);
-
+body.appendChild(h1);
+// 
 
 //  ----------------------------------------------------------------------------------------------------------------------------------
 
@@ -101,7 +101,7 @@ h1.classList.add('newClass');
 
 
 // Examples of events:
-// click, mouseover, mouseout, mouseenter,
+// click, mouseover, mouseout, mouseenter, DOMContentLoaded
 // mouseleave, keydown, keyup, keypress, 
 // input, change, submit, focus, blur, scroll, 
 // resize, load, unload, contextmenu, dblclick,

@@ -2,6 +2,10 @@
 
 
 // create a custom event
+
+//      js                  for html
+//      |                    |
+//      |                    |
 const myevent = new Event('smash');
 
 let greet = document.querySelector('h1');

@@ -6,6 +6,7 @@ function App() {
 
   return (
     <>
+    <div>Pratik&#39;s</div>
     <Card />
     </>
   )

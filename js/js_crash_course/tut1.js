@@ -9,3 +9,7 @@ console.warn('pratik'); // warning in yellow
 
 // prompt box in browser
 // var naam = prompt('naam batao')
+
+
+// read this for let and var
+// https://sentry.io/answers/difference-between-let-and-var-in-javascript/
